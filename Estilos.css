@@ -12,3 +12,7 @@
 .iconos {
     width: 55px; height: 55px;
 }
+.portada{
+    flex: content;
+    width: 700px;
+}
