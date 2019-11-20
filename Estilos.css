@@ -1,18 +1,41 @@
-.imagen{
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.navegacion a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.imagen {
     flex: content;
     max-width: 50px;
 }
-.estilop{
+
+.estilop {
     font-size: 30px;
     color: black;
 }
-.logo{
+
+.logo {
     color: cadetblue;
 }
+
 .iconos {
-    width: 55px; height: 55px;
+    width: 55px;
+    height: 55px;
 }
-.portada{
+
+.portada {
     flex: content;
     width: 700px;
 }
